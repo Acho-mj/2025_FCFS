@@ -12,9 +12,6 @@ ENV DB_PORT=${DB_PORT}
 ENV DB_USERNAME=${DB_USERNAME}
 ENV DB_PASSWORD=${DB_PASSWORD}
 
-# 작업 디렉토리 설정
-WORKDIR /app
-
 # JAR 파일을 컨테이너로 복사
 COPY build/libs/fcfs-0.0.1-SNAPSHOT.jar app.jar
 
