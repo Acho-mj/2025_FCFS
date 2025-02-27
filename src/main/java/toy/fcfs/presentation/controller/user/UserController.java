@@ -1,4 +1,4 @@
-package toy.fcfs.domain.user.controller;
+package toy.fcfs.presentation.controller.user;
 
 
 import lombok.RequiredArgsConstructor;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
-import toy.fcfs.domain.user.entity.User;
-import toy.fcfs.domain.user.repository.UserRepository;
+import toy.fcfs.service.user.domain.User;
+import toy.fcfs.service.user.repository.UserRepository;
 
 @RestController
 @RequiredArgsConstructor
