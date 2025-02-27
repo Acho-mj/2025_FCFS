@@ -1,8 +1,8 @@
-package toy.fcfs.domain.user.repository;
+package toy.fcfs.service.user.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import toy.fcfs.domain.user.entity.User;
+import toy.fcfs.service.user.domain.User;
 
 import java.util.Optional;
 

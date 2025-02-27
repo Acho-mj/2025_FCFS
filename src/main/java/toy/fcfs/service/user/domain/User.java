@@ -1,4 +1,4 @@
-package toy.fcfs.domain.user.entity;
+package toy.fcfs.service.user.domain;
 
 import jakarta.persistence.*;
 
