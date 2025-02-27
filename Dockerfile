@@ -1,17 +1,6 @@
 # 베이스 이미지 (OpenJDK 21 사용)
 FROM openjdk:21-jdk-slim
 
-ARG DB_HOST
-ARG DB_PORT
-ARG DB_USERNAME
-ARG DB_PASSWORD
-
-# 환경 변수 설정
-ENV DB_HOST=${DB_HOST}
-ENV DB_PORT=${DB_PORT}
-ENV DB_USERNAME=${DB_USERNAME}
-ENV DB_PASSWORD=${DB_PASSWORD}
-
 # JAR 파일을 컨테이너로 복사
 COPY build/libs/fcfs-0.0.1-SNAPSHOT.jar app.jar
 
